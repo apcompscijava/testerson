@@ -9,7 +9,7 @@ public class Driver implements Directions
   {
     World.setVisible(true);
     World.setSize(10, 10);
-    World.setDelay(5);
+    World.setDelay(1);
     World.readWorld("smooth1.kwld");
     SmoothBot fred = new SmoothBot(2, 2, EAST, INFINITY);
     fred.solveIt();
