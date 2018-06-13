@@ -11,7 +11,7 @@ public class Driver implements Directions
     World.setSize(10, 10);
     World.setDelay(1);
     World.readWorld("smooth1.kwld");
-    SmoothBot fred = new SmoothBot(2, 2, NORTH, INFINITY);
+    SmoothBot fred = new SmoothBot(2, 3, NORTH, INFINITY);
     fred.solveIt();
   } //add no extra code past this line
 }
