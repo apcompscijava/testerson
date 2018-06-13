@@ -1,7 +1,6 @@
 /**
  * Basic code to start any Karel project.
  */
-import java.awt.*;
 import kareltherobot.*;
 
 public class Driver implements Directions
